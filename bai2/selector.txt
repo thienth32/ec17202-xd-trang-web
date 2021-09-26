@@ -1,0 +1,6 @@
+1. Tên thẻ:
+<div ></div>
+div{ }
+p{ }
+2. giá trị của thuộc tính id
+<span id="target"></span>

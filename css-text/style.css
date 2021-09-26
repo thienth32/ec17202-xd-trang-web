@@ -1,0 +1,24 @@
+.font-arial{
+    font-family: Arial;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+.anchor-style{
+    text-decoration: none;
+}
+.anchor-style:link{
+    color: black;
+}
+.anchor-style:active{
+    
+    color: aqua;
+}
+.anchor-style:hover, .font-arial:hover{
+    color: green;
+    text-decoration: underline;
+}
+/* .anchor-style:visited{
+    color: brown
+} */

@@ -1,0 +1,33 @@
+<!-- form -->
+<!-- input -->
+<!-- select - option -->
+<!-- textarea -->
+<!-- button -->
+<form action="http://localhost/we16201-php2/demo/test.php" method="POST" enctype="multipart/form-data">
+    tài khoản: <input type="text" name="username">
+    <br>
+    mật khẩu: <input type="password" name="password">
+    <br>
+    giới tính: 
+    <select name="gender" multiple>
+        <option value="0">Lựa chọn giới tính</option>
+        <option value="1">Nam</option>
+        <option value="2">Nữ</option>
+        <option value="3">Khác</option>
+    </select>
+    <br>
+    mô tả:
+    <textarea name="detail" cols="100" rows="10"></textarea>
+    <br>
+    <button type="button">Lưu thông tin</button>
+    <button type="reset">Hủy</button>
+</form>
+
+<input id='isMarried' type="checkbox" value="1"> <label for="isMarried">đã kết hôn</label>
+<br>
+bằng cấp
+<input type="radio" name="license" value="1"> Đại học
+<input type="radio" name="license" value="2"> Cao đẳng
+<input type="radio" name="license" value="3"> Trung cấp
+<br>
+<input type="date">

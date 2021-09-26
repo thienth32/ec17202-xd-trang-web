@@ -1,0 +1,17 @@
+.box-1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.box-2{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    border-radius: 0px;
+    box-shadow: 5px 10px black;
+}

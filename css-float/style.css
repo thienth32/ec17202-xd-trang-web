@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+main{
+    min-height: 600px;
+}
+footer{
+    height: 50px;
+    background-color: #360B21;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.banner{
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #360B21;
+}
+.main-nav{
+    background-color: #B75797;
+}
+.main-nav>nav{
+    float: left;
+    height: 40px;
+    width: 70%;
+}
+.main-nav>nav>ul{
+    list-style: none;
+}
+.main-nav>nav>ul>li{
+    float: left;
+    margin-top: -5px;
+    padding: 0 10px;
+}
+.main-nav>nav>ul>li:hover{
+    background-color: #360B21;
+}
+.main-nav>nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.main-nav>section{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    width: 30%;
+}
+.main-nav>section form button{
+    background-color: #2A3030;
+    color: #fff;
+    border: none;
+    height: 20px;
+}
+.clearfix::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.main-banner{
+    margin-top: 5px;
+}
+.list-product .unit{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.list-product .unit .price{
+    font-weight: bold;
+    color: #B68CA9;
+}
+.list-product .unit a{
+    margin: auto;
+    display: block;
+    width: 60%;
+    height: 35px;
+    line-height: 35px;
+    background-color: #2A3030;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
