@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+    <style>
+        body{
+            height: 2000px;
+        }
+        .target{
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        .item{
+            width: 200px;
+            height: 300px;
+            border: 1px solid brown;
+            position: relative;
+        }
+        .heart-circle{
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            /* border: 1px solid #000; */
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            text-align: center;
+        }
+        .heart-circle:hover>i{
+            color: red;
+        }
+        .heart-circle>i{
+            line-height: 40px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="target"></div>
+
+    <div class="item">
+        <div class="heart-circle">
+            <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+        </div>
+    </div>
+</body>
+</html>

@@ -86,3 +86,7 @@ footer{
     text-decoration: none;
     color: #fff;
 }
+.order-box{
+    float: right;
+    margin-top: 40px;
+}
