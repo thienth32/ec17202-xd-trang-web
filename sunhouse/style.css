@@ -1,0 +1,120 @@
+*{
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-1{
+    float: left;
+    width: 8.33%;
+}
+.col-2{
+    float: left;
+    width: 16.66%;
+}
+.col-3{
+    float: left;
+    width: 25%;
+}
+.col-4{
+    float: left;
+    width: 33.33%;
+}
+
+.col-5{
+    float: left;
+    width: 41.66%;
+}
+.col-6{
+    float: left;
+    width: 50%;
+}
+.col-7{
+    float: left;
+    width: 58.33%;
+}
+.col-8{
+    float: left;
+    width: 66.66%;
+}
+.col-9{
+    float: left;
+    width: 75%;
+}
+.col-10{
+    float: left;
+    width: 83.33%;
+}
+.col-11{
+    float: left;
+    width: 91.66%;
+}
+.col-12{
+    float: left;
+    width: 100%;
+}
+.col-1{
+    float: left;
+    width: 8.33%;
+}
+.col-1{
+    float: left;
+    width: 8.33%;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/**
+    Page header
+*/
+.page-header{
+    min-height: 77px;
+    background-color: blue;
+}
+
+/**
+    banner
+*/
+.top-banner{
+    min-height: 500px;
+    background-color: aquamarine;
+}
+.bottom-banner{
+    min-height: 500px;
+    background-color:beige;
+}
+
+/**
+    top category
+*/
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-beige{
+    background-color: beige;
+}
+.bg-brown{
+    background-color: brown;
+}
+.top-category-item{
+    min-height: 200px;
+    /* border: 1px solid #000; */
+}
+
+.copr-news{
+    min-height: 500px;
+}
